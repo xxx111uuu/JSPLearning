@@ -50,4 +50,5 @@ public class BookServlet2 extends HttpServlet {
     public void doPost(HttpServletRequest req,HttpServletResponse resp){
         this.doGet(req,resp);
     }
+
 }

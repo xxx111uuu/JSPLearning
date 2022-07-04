@@ -27,6 +27,8 @@ public class RequestDemo1 extends HttpServlet {
         //            String getQueryString():获得请求参数（GET方式）：username=xxx&password=xxx
         String queryString = req.getQueryString();
         System.out.println(queryString);
+        String remoteAddr = req.getRemoteAddr();
+        System.out.println(remoteAddr);
 
 
         //-----------------
