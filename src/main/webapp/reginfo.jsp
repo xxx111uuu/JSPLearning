@@ -31,5 +31,6 @@
 博客地址：<%= blog%><br>
 备注信息：<%= remark%><br>
 兴趣爱好：<%= interStr%><br>
+$
 </body>
 </html>

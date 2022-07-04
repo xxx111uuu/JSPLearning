@@ -25,6 +25,7 @@
 <br>获得Http协议定义的文件头信息User-Agent的值:<%=request.getHeader("user-agent")%>
 <br>获得Http协议定义的文件头信息accept-language的值:<%=request.getHeader("accept-language")%>
 <br>获得请求文件的绝对路径:<%=request.getRealPath("index.jsp")%>
-
+<%
+%>
 </body>
 </html>
